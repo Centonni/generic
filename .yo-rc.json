@@ -1,0 +1,37 @@
+{
+  "generator-jhipster": {
+    "applicationType": "monolith",
+    "gitHubOrganization": "Centonni",
+    "baseName": "generic",
+    "packageName": "io.github.jhipster.application",
+    "serverPort": 9090,
+    "serviceDiscoveryType": false,
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "hibernateCache": "ehcache",
+    "clusteredHttpSession": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "buildTool": "maven",
+    "enableSocialSignIn": false,
+    "useSass": true,
+    "clientPackageManager": "yarn",
+    "testFrameworks": [
+      "protractor"
+    ],
+    "enableTranslation": false,
+    "nativeLanguage": "fr",
+    "languages": [
+      "en"
+    ],
+    "clientFramework": "angularX",
+    "jhipsterVersion": "4.6.2",
+    "packageFolder": "io/github/jhipster/application",
+    "jwtSecretKey": "fe0ef093b228c72d922545df8d7385edd4f09648",
+    "jhiPrefix": "jhi"
+  }
+}
